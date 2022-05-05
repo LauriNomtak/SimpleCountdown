@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="background">#FFFAECC2</color>
-    <color name="button">#7AFF5722</color>
-    <color name="text">#7A4E1D0E</color>
+    <color name="button">#FFEFA96C</color>
+    <color name="text">#FF5A504D</color>
     <color name="rectangle">#FF018786</color>
 </resources>

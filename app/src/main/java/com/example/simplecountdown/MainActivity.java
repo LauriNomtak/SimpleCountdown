@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         clockButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, TimerActivity.class);
-                intent.putExtra(TimerActivity.SELECTED_MINUTES, ctMinutes.getText());
+                Intent intent = new Intent(MainActivity.this, TimerActivity2.class);
+                intent.putExtra(TimerActivity2.SELECTED_MINUTES, ctMinutes.getText());
 
                 Pair<View, String> el1 = Pair.create(clockButton, "clock_button_tran");
                 Pair<View, String> el2 = Pair.create(ctMinutes, "ct_minutes_tran");
